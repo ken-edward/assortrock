@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0. Main">
+      <UniqueIdentifier>{bc28b0b3-3043-43f1-9009-530ade9e7b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. Main\Sub">
+      <UniqueIdentifier>{fc66e8c0-d21b-45f6-be19-418132634534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0. Main\Sub\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="1. Core">
+      <UniqueIdentifier>{67d68fd9-e25e-486d-ae1d-8f0c9ba9f7d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Core\Mgr">
+      <UniqueIdentifier>{1fd7368d-c0f7-417d-bdde-56cc7f57866a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State">
+      <UniqueIdentifier>{5f74e5ab-df20-489c-ada9-e33435bdf83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State\States">
+      <UniqueIdentifier>{1c79489c-26d6-4fe9-b163-51c680141222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State\Actor">
+      <UniqueIdentifier>{8196fa78-2304-4de3-a43e-a2b569062c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State\States\PlayState">
+      <UniqueIdentifier>{f8302637-0ff7-4c54-b9bf-91857d7180c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State\States\PlayState\Actor">
+      <UniqueIdentifier>{53a67d45-7861-47b7-bfb9-aefff384b9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State\States\PlayState\Actor\Button">
+      <UniqueIdentifier>{72dafb53-5e4f-4743-bd99-f8b61d94df76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State\States\PlayState\Actor\Card">
+      <UniqueIdentifier>{11a6482a-6524-4853-a616-4b083f6bfbb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State\States\SelectState">
+      <UniqueIdentifier>{5afd9e92-6ae0-44a6-9dc5-cfe34a641fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State\States\DeckState">
+      <UniqueIdentifier>{47a9e005-fb64-4e88-b288-6fda796bfbfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Sound">
+      <UniqueIdentifier>{8790c8eb-cf97-487e-94f7-24a92b01a7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. State\States\0. MenuState">
+      <UniqueIdentifier>{fd7c077c-17f8-492b-9fbf-ffde67326bfa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>0. Main\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>0. Main\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="APICORE.h">
+      <Filter>1. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>1. Core\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMgr.h">
+      <Filter>1. Core\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>1. Core\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>2. State\States\PlayState</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHero.h">
+      <Filter>2. State\States\PlayState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="OpponentHero.h">
+      <Filter>2. State\States\PlayState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>2. State\States\PlayState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>2. State\States\PlayState\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>2. State</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>2. State\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMgr.h">
+      <Filter>1. Core\Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="HearthStone.h">
+      <Filter>0. Main\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="EndTurn.h">
+      <Filter>2. State\States\PlayState\Actor\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>2. State\States\PlayState\Actor\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>2. State\States\0. MenuState</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectState.h">
+      <Filter>2. State\States\SelectState</Filter>
+    </ClInclude>
+    <ClInclude Include="DeckState.h">
+      <Filter>2. State\States\DeckState</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>3. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ResMgr.h">
+      <Filter>3. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundPlayer.h">
+      <Filter>3. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CardHeader.h">
+      <Filter>2. State\States\PlayState\Actor\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>0. Main\Sub\리소스 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>0. Main\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="APICORE.cpp">
+      <Filter>1. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="APICORE_PROGRESS.cpp">
+      <Filter>1. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>1. Core\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMgr.cpp">
+      <Filter>1. Core\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>1. Core\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>2. State\States\PlayState</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHero.cpp">
+      <Filter>2. State\States\PlayState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="OpponentHero.cpp">
+      <Filter>2. State\States\PlayState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>2. State\States\PlayState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>2. State\States\PlayState\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>2. State</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>2. State\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr.cpp">
+      <Filter>1. Core\Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="HearthStone.cpp">
+      <Filter>0. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="APICORE_INIT.cpp">
+      <Filter>1. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EndTurn.cpp">
+      <Filter>2. State\States\PlayState\Actor\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>2. State\States\PlayState\Actor\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>2. State\States\0. MenuState</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectState.cpp">
+      <Filter>2. State\States\SelectState</Filter>
+    </ClCompile>
+    <ClCompile Include="DeckState.cpp">
+      <Filter>2. State\States\DeckState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>3. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ResMgr.cpp">
+      <Filter>3. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundPlayer.cpp">
+      <Filter>3. Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HearthStone.rc">
+      <Filter>0. Main\Sub\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>0. Main\Sub\리소스 파일</Filter>
+    </Image>
+    <Image Include="HearthStone.ico">
+      <Filter>0. Main\Sub\리소스 파일</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>0. Main\Sub\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>0. Main\Sub</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

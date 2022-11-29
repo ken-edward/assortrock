@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HearthStone", "HearthStone\HearthStone.vcxproj", "{9E47C4CF-1B36-44AC-8302-B97FDB710681}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BE6B1B5-7170-4B13-92D5-813F3733C187}"
+	ProjectSection(SolutionItems) = preProject
+		고쳐야 할 점.txt = 고쳐야 할 점.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E47C4CF-1B36-44AC-8302-B97FDB710681}.Debug|x64.ActiveCfg = Debug|x64
+		{9E47C4CF-1B36-44AC-8302-B97FDB710681}.Debug|x64.Build.0 = Debug|x64
+		{9E47C4CF-1B36-44AC-8302-B97FDB710681}.Debug|x86.ActiveCfg = Debug|Win32
+		{9E47C4CF-1B36-44AC-8302-B97FDB710681}.Debug|x86.Build.0 = Debug|Win32
+		{9E47C4CF-1B36-44AC-8302-B97FDB710681}.Release|x64.ActiveCfg = Release|x64
+		{9E47C4CF-1B36-44AC-8302-B97FDB710681}.Release|x64.Build.0 = Release|x64
+		{9E47C4CF-1B36-44AC-8302-B97FDB710681}.Release|x86.ActiveCfg = Release|Win32
+		{9E47C4CF-1B36-44AC-8302-B97FDB710681}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {049364D8-FBA7-4294-AA60-8FABEB24D039}
+	EndGlobalSection
+EndGlobal

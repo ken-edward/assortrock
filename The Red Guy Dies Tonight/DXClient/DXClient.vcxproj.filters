@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0. main">
+      <UniqueIdentifier>{1475ae56-96ff-4c2b-8876-272aade1f2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. GameClient">
+      <UniqueIdentifier>{265c8611-2977-44f7-9eed-19705484226f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. PlayScene">
+      <UniqueIdentifier>{34416fc1-09d4-48c9-88fb-9c9e67438c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. PlayScene\Actor">
+      <UniqueIdentifier>{ef3b7ead-ab6b-4538-a971-8437eeb08ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. TitleScene">
+      <UniqueIdentifier>{af4f2437-3422-414f-8337-051724233a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. TitleScene\Actor">
+      <UniqueIdentifier>{c8355e88-2ed1-4d5d-b91d-840f84bc2ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. PlayScene\Actor\Character">
+      <UniqueIdentifier>{6cb1db2e-baae-4568-a94f-ea25c5ef853b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. PlayScene\Actor\Map">
+      <UniqueIdentifier>{ea01d126-e1be-4eac-a132-dde2c8ac9507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. PlayScene\Actor\Dynamic">
+      <UniqueIdentifier>{8d2bab56-fc1b-4216-ba79-40459069252d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. EndScene">
+      <UniqueIdentifier>{c9081deb-1bd4-46bc-bd7a-095c0fabd903}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>0. main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>1. GameClient</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>2. PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>2. PlayScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>3. TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleActor.cpp">
+      <Filter>3. TitleScene\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Character_FSM.cpp">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Character_Renewal.cpp">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Cautious.cpp">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Hostile.cpp">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Suspicious.cpp">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_Unaware.cpp">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMgr.cpp">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="RappelWall.cpp">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Siren.cpp">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Stairs.cpp">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>2. PlayScene\Actor\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletCase.cpp">
+      <Filter>2. PlayScene\Actor\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundRing.cpp">
+      <Filter>2. PlayScene\Actor\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Exit.cpp">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>4. EndScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameClient.h">
+      <Filter>1. GameClient</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>2. PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>2. PlayScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>3. TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleActor.h">
+      <Filter>3. TitleScene\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>2. PlayScene\Actor\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMgr.h">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="RappelWall.h">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Stairs.h">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>2. PlayScene\Actor\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletCase.h">
+      <Filter>2. PlayScene\Actor\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundRing.h">
+      <Filter>2. PlayScene\Actor\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Siren.h">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Exit.h">
+      <Filter>2. PlayScene\Actor\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>4. EndScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

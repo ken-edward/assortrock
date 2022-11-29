@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0. header">
+      <UniqueIdentifier>{409856e8-2a7f-40ef-9001-4a60dc052824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. system">
+      <UniqueIdentifier>{79403f5a-4055-4331-9eb9-8674e66b3446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. scene">
+      <UniqueIdentifier>{7f65695f-26b0-487e-abfe-82d17b0f53db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. system\sub">
+      <UniqueIdentifier>{f8ca57a7-b05d-4e6b-b9e8-b057a6ef4778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. actor">
+      <UniqueIdentifier>{03a3f33f-76f1-47f1-b748-241713a4ac8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. actor\com">
+      <UniqueIdentifier>{b53007db-ef55-4f29-82ef-2990a8572e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. scene\script">
+      <UniqueIdentifier>{5badef8c-9d70-4b65-bfd9-7709b3c3dfef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. system\manager">
+      <UniqueIdentifier>{b7840662-8260-44bf-b923-d6e455c1a4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. actor\com\sub">
+      <UniqueIdentifier>{3380fdde-7337-4b0f-8b06-bc6306ed572f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. scene\mgr">
+      <UniqueIdentifier>{da5f7f62-720a-4080-ad82-09ecfcda0d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. dxclass">
+      <UniqueIdentifier>{c9bc9788-6cec-4663-be01-3472a2252ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. dxclass\shader">
+      <UniqueIdentifier>{3fec06c0-356f-47c0-b063-372cb8f215cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. dxclass\hlsl">
+      <UniqueIdentifier>{e2bad5cc-2c5c-48d5-a1ad-a98b9a75b6dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. dxclass\tex">
+      <UniqueIdentifier>{0837adb5-0e98-4d00-8021-bd103a623272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. dxclass\camera">
+      <UniqueIdentifier>{ea94e6f7-a61e-4f8a-bc06-1285238e6b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. dxclass\font">
+      <UniqueIdentifier>{78017fbe-e8da-4f31-988e-4232a85da472}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SystemClass.cpp">
+      <Filter>1. system</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>0. header</Filter>
+    </ClCompile>
+    <ClCompile Include="DXClass.cpp">
+      <Filter>2. dxclass</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>3. scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Tex.cpp">
+      <Filter>2. dxclass\tex</Filter>
+    </ClCompile>
+    <ClCompile Include="TexShader.cpp">
+      <Filter>2. dxclass\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore.cpp">
+      <Filter>1. system\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="TexCom.cpp">
+      <Filter>2. dxclass\tex</Filter>
+    </ClCompile>
+    <ClCompile Include="Cam.cpp">
+      <Filter>2. dxclass\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Com.cpp">
+      <Filter>4. actor\com</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>4. actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>3. scene\script</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeClass.cpp">
+      <Filter>1. system\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputClass.cpp">
+      <Filter>1. system\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundClass.cpp">
+      <Filter>1. system\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ColCom.cpp">
+      <Filter>4. actor\com\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMgr.cpp">
+      <Filter>3. scene\mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ColMgr.cpp">
+      <Filter>3. scene\mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="AniState.cpp">
+      <Filter>4. actor\com\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="AniCom.cpp">
+      <Filter>4. actor\com\sub</Filter>
+    </ClCompile>
+    <ClCompile Include="FontWrapper.cpp">
+      <Filter>2. dxclass\font</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SystemClass.h">
+      <Filter>1. system</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>0. header</Filter>
+    </ClInclude>
+    <ClInclude Include="DXClass.h">
+      <Filter>2. dxclass</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>3. scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Tex.h">
+      <Filter>2. dxclass\tex</Filter>
+    </ClInclude>
+    <ClInclude Include="TexShader.h">
+      <Filter>2. dxclass\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h">
+      <Filter>1. system\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="TexCom.h">
+      <Filter>2. dxclass\tex</Filter>
+    </ClInclude>
+    <ClInclude Include="Cam.h">
+      <Filter>2. dxclass\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Com.h">
+      <Filter>4. actor\com</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>0. header</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>4. actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>3. scene\script</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeClass.h">
+      <Filter>1. system\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputClass.h">
+      <Filter>1. system\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundClass.h">
+      <Filter>1. system\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ColCom.h">
+      <Filter>4. actor\com\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMgr.h">
+      <Filter>3. scene\mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ColMgr.h">
+      <Filter>3. scene\mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AniState.h">
+      <Filter>4. actor\com\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="AniCom.h">
+      <Filter>4. actor\com\sub</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedAllocationPolicy.h">
+      <Filter>0. header</Filter>
+    </ClInclude>
+    <ClInclude Include="FontWrapper.h">
+      <Filter>2. dxclass\font</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tex_ps.fx">
+      <Filter>2. dxclass\hlsl</Filter>
+    </None>
+    <None Include="tex_vs.fx">
+      <Filter>2. dxclass\hlsl</Filter>
+    </None>
+  </ItemGroup>
+</Project>
